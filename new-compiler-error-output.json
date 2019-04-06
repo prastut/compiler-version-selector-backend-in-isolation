@@ -1,0 +1,20 @@
+{
+  "errors": [
+    {
+      "component": "general",
+      "formattedMessage": "Warning: This is a pre-release compiler version, please do not use it in production.\n",
+      "message": "This is a pre-release compiler version, please do not use it in production.",
+      "severity": "warning",
+      "type": "Warning"
+    },
+    {
+      "component": "general",
+      "formattedMessage": "SimpleToken.sol:3:1: ParserError: Source file requires different compiler version (current compiler is 0.6.0-nightly.2019.3.11+commit.4704ef84.Emscripten.clang - note that nightly builds are considered to be strictly less than the released version\nlibrary SafeMath {\n^-----^\n",
+      "message": "Source file requires different compiler version (current compiler is 0.6.0-nightly.2019.3.11+commit.4704ef84.Emscripten.clang - note that nightly builds are considered to be strictly less than the released version",
+      "severity": "error",
+      "sourceLocation": [Object],
+      "type": "ParserError"
+    }
+  ],
+  "sources": {}
+}
