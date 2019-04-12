@@ -6948,10 +6948,7 @@
           "winningProposal()": "609ff1bd"
         },
         "gasEstimates": {
-          "creation": [
-            null,
-            377200
-          ],
+          "creation": [null, 377200],
           "external": {
             "chairperson()": 592,
             "closeVoting()": 21045,
@@ -6963,41 +6960,30 @@
             "winnerName()": null,
             "winningProposal()": null
           },
-          "internal": {
-            
-          }
+          "internal": {}
         },
         "interface": "[{\"constant\":false,\"inputs\":[{\"name\":\"proposal\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"proposals\",\"outputs\":[{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"chairperson\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOpen\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"winningProposal\",\"outputs\":[{\"name\":\"winningProposal_\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"voter\",\"type\":\"address\"}],\"name\":\"giveRightToVote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"voters\",\"outputs\":[{\"name\":\"weight\",\"type\":\"uint256\"},{\"name\":\"voted\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeVoting\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"winnerName\",\"outputs\":[{\"name\":\"winnerName_\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"proposalNames\",\"type\":\"bytes32[]\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}]",
-        "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"proposal\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"proposals\",\"outputs\":[{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"chairperson\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOpen\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"winningProposal\",\"outputs\":[{\"name\":\"winningProposal_\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"voter\",\"type\":\"address\"}],\"name\":\"giveRightToVote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"voters\",\"outputs\":[{\"name\":\"weight\",\"type\":\"uint256\"},{\"name\":\"voted\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeVoting\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"winnerName\",\"outputs\":[{\"name\":\"winnerName_\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"proposalNames\",\"type\":\"bytes32[]\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"voting.sol\":\"Voting\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"voting.sol\":{\"keccak256\":\"0x7948fb2681488a7c30e1f5d7dd20f5544f363994abf1eb47c8887f002b20a9aa\",\"urls\":[\"bzzr:\/\/f22ecc49b0b2d11ed0e06ff536244e69630cd9f89c66bce0e85fa38222c400c4\"]}},\"version\":1}",
+        "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"proposal\",\"type\":\"uint256\"}],\"name\":\"vote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"proposals\",\"outputs\":[{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"chairperson\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOpen\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"winningProposal\",\"outputs\":[{\"name\":\"winningProposal_\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"voter\",\"type\":\"address\"}],\"name\":\"giveRightToVote\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"voters\",\"outputs\":[{\"name\":\"weight\",\"type\":\"uint256\"},{\"name\":\"voted\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeVoting\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"winnerName\",\"outputs\":[{\"name\":\"winnerName_\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"proposalNames\",\"type\":\"bytes32[]\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"voting.sol\":\"Voting\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"voting.sol\":{\"keccak256\":\"0x7948fb2681488a7c30e1f5d7dd20f5544f363994abf1eb47c8887f002b20a9aa\",\"urls\":[\"bzzr://f22ecc49b0b2d11ed0e06ff536244e69630cd9f89c66bce0e85fa38222c400c4\"]}},\"version\":1}",
         "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 SLOAD PUSH1 0xFF NOT AND PUSH1 0x1 OR SWAP1 SSTORE CALLVALUE DUP1 ISZERO PUSH2 0x1D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0x844 CODESIZE SUB DUP1 PUSH2 0x844 DUP4 CODECOPY DUP2 ADD PUSH1 0x40 SWAP1 DUP2 MSTORE DUP2 MLOAD PUSH1 0x0 DUP1 SLOAD PUSH2 0x100 CALLER DUP2 MUL PUSH2 0x100 PUSH1 0xA8 PUSH1 0x2 EXP SUB NOT SWAP1 SWAP3 AND SWAP2 SWAP1 SWAP2 OR DUP1 DUP4 SSTORE DIV PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB AND DUP2 MSTORE PUSH1 0x1 PUSH1 0x20 DUP2 SWAP1 MSTORE SWAP3 DUP2 KECCAK256 SWAP3 SWAP1 SWAP3 SSTORE SWAP1 SWAP2 ADD SWAP1 JUMPDEST DUP2 MLOAD DUP2 LT ISZERO PUSH2 0xD5 JUMPI PUSH1 0x2 PUSH1 0x40 DUP1 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 DUP5 DUP5 DUP2 MLOAD DUP2 LT ISZERO ISZERO PUSH2 0x96 JUMPI INVALID JUMPDEST PUSH1 0x20 SWAP1 DUP2 MUL SWAP1 SWAP2 ADD DUP2 ADD MLOAD DUP3 MSTORE PUSH1 0x0 SWAP2 DUP2 ADD DUP3 SWAP1 MSTORE DUP4 SLOAD PUSH1 0x1 DUP2 DUP2 ADD DUP7 SSTORE SWAP5 DUP4 MSTORE SWAP2 DUP2 SWAP1 KECCAK256 DUP4 MLOAD PUSH1 0x2 SWAP1 SWAP4 MUL ADD SWAP2 DUP3 SSTORE SWAP2 SWAP1 SWAP2 ADD MLOAD SWAP1 DUP3 ADD SSTORE ADD PUSH2 0x72 JUMP JUMPDEST POP POP PUSH2 0x75E DUP1 PUSH2 0xE6 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x98 JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0x121B93F DUP2 EQ PUSH2 0x9D JUMPI DUP1 PUSH4 0x13CF08B EQ PUSH2 0xB7 JUMPI DUP1 PUSH4 0x2E4176CF EQ PUSH2 0xE8 JUMPI DUP1 PUSH4 0x47535D7B EQ PUSH2 0x119 JUMPI DUP1 PUSH4 0x609FF1BD EQ PUSH2 0x142 JUMPI DUP1 PUSH4 0x9E7B8D61 EQ PUSH2 0x169 JUMPI DUP1 PUSH4 0xA3EC138D EQ PUSH2 0x18A JUMPI DUP1 PUSH4 0xC631B292 EQ PUSH2 0x1C4 JUMPI DUP1 PUSH4 0xE2BA53F0 EQ PUSH2 0x1D9 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xA9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xB5 PUSH1 0x4 CALLDATALOAD PUSH2 0x1EE JUMP JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xC3 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xCF PUSH1 0x4 CALLDATALOAD PUSH2 0x352 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP3 DUP4 MSTORE PUSH1 0x20 DUP4 ADD SWAP2 SWAP1 SWAP2 MSTORE DUP1 MLOAD SWAP2 DUP3 SWAP1 SUB ADD SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xF4 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xFD PUSH2 0x37E JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x125 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x12E PUSH2 0x392 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 ISZERO ISZERO DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x14E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x157 PUSH2 0x39B JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x175 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xB5 PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB PUSH1 0x4 CALLDATALOAD AND PUSH2 0x405 JUMP JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x196 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x1AB PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB PUSH1 0x4 CALLDATALOAD AND PUSH2 0x5F1 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP3 DUP4 MSTORE SWAP1 ISZERO ISZERO PUSH1 0x20 DUP4 ADD MSTORE DUP1 MLOAD SWAP2 DUP3 SWAP1 SUB ADD SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x1D0 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xB5 PUSH2 0x60D JUMP JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x1E5 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x157 PUSH2 0x705 JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0xFF AND ISZERO ISZERO PUSH1 0x1 EQ PUSH2 0x24E JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x1E PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x5468697320766F74696E6720697320616C726561647920636C6F7365642E0000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST POP CALLER PUSH1 0x0 SWAP1 DUP2 MSTORE PUSH1 0x1 PUSH1 0x20 MSTORE PUSH1 0x40 DUP2 KECCAK256 DUP1 SLOAD SWAP1 SWAP2 LT PUSH2 0x2B7 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0xF PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x4E6F20766F74696E672072696768740000000000000000000000000000000000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST PUSH1 0x1 DUP2 ADD SLOAD PUSH1 0xFF AND ISZERO PUSH2 0x314 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0xE PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x416C726561647920766F7465642E000000000000000000000000000000000000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST PUSH1 0x1 DUP2 DUP2 ADD DUP1 SLOAD PUSH1 0xFF NOT AND SWAP1 SWAP2 OR SWAP1 SSTORE DUP1 SLOAD PUSH1 0x2 DUP1 SLOAD DUP5 SWAP1 DUP2 LT PUSH2 0x334 JUMPI INVALID JUMPDEST PUSH1 0x0 SWAP2 DUP3 MSTORE PUSH1 0x20 SWAP1 SWAP2 KECCAK256 PUSH1 0x1 PUSH1 0x2 SWAP1 SWAP3 MUL ADD ADD DUP1 SLOAD SWAP1 SWAP2 ADD SWAP1 SSTORE POP POP JUMP JUMPDEST PUSH1 0x2 DUP1 SLOAD DUP3 SWAP1 DUP2 LT PUSH2 0x360 JUMPI INVALID JUMPDEST PUSH1 0x0 SWAP2 DUP3 MSTORE PUSH1 0x20 SWAP1 SWAP2 KECCAK256 PUSH1 0x2 SWAP1 SWAP2 MUL ADD DUP1 SLOAD PUSH1 0x1 SWAP1 SWAP2 ADD SLOAD SWAP1 SWAP2 POP DUP3 JUMP JUMPDEST PUSH1 0x0 SLOAD PUSH2 0x100 SWAP1 DIV PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB AND DUP2 JUMP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0xFF AND DUP2 JUMP JUMPDEST PUSH1 0x0 DUP1 DUP1 JUMPDEST PUSH1 0x2 SLOAD DUP2 LT ISZERO PUSH2 0x400 JUMPI DUP2 PUSH1 0x2 DUP3 DUP2 SLOAD DUP2 LT ISZERO ISZERO PUSH2 0x3BA JUMPI INVALID JUMPDEST SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x2 MUL ADD PUSH1 0x1 ADD SLOAD GT ISZERO PUSH2 0x3F8 JUMPI PUSH1 0x2 DUP1 SLOAD DUP3 SWAP1 DUP2 LT PUSH2 0x3E0 JUMPI INVALID JUMPDEST SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x2 MUL ADD PUSH1 0x1 ADD SLOAD SWAP2 POP DUP1 SWAP3 POP JUMPDEST PUSH1 0x1 ADD PUSH2 0x3A0 JUMP JUMPDEST POP POP SWAP1 JUMP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0xFF AND ISZERO ISZERO PUSH1 0x1 EQ PUSH2 0x464 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x1E PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x5468697320766F74696E6720697320616C726561647920636C6F7365642E0000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST PUSH1 0x0 SLOAD PUSH2 0x100 SWAP1 DIV PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB AND CALLER EQ PUSH2 0x4F1 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x28 PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x4F6E6C79206368616972706572736F6E2063616E206769766520726967687420 PUSH1 0x44 DUP3 ADD MSTORE PUSH32 0x746F20766F74652E000000000000000000000000000000000000000000000000 PUSH1 0x64 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x84 ADD SWAP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB DUP2 AND PUSH1 0x0 SWAP1 DUP2 MSTORE PUSH1 0x1 PUSH1 0x20 DUP2 SWAP1 MSTORE PUSH1 0x40 SWAP1 SWAP2 KECCAK256 ADD SLOAD PUSH1 0xFF AND ISZERO PUSH2 0x566 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x18 PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x54686520766F74657220616C726561647920766F7465642E0000000000000000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB DUP2 AND PUSH1 0x0 SWAP1 DUP2 MSTORE PUSH1 0x1 PUSH1 0x20 MSTORE PUSH1 0x40 SWAP1 KECCAK256 SLOAD ISZERO PUSH2 0x5D4 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0xF PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x416C7265616479206772616E7465640000000000000000000000000000000000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB AND PUSH1 0x0 SWAP1 DUP2 MSTORE PUSH1 0x1 PUSH1 0x20 DUP2 SWAP1 MSTORE PUSH1 0x40 SWAP1 SWAP2 KECCAK256 SSTORE JUMP JUMPDEST PUSH1 0x1 PUSH1 0x20 DUP2 SWAP1 MSTORE PUSH1 0x0 SWAP2 DUP3 MSTORE PUSH1 0x40 SWAP1 SWAP2 KECCAK256 DUP1 SLOAD SWAP2 ADD SLOAD PUSH1 0xFF AND DUP3 JUMP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0xFF AND ISZERO ISZERO PUSH1 0x1 EQ PUSH2 0x66C JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x1E PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x5468697320766F74696E6720697320616C726561647920636C6F7365642E0000 PUSH1 0x44 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x64 ADD SWAP1 REVERT JUMPDEST PUSH1 0x0 SLOAD PUSH2 0x100 SWAP1 DIV PUSH1 0x1 PUSH1 0xA0 PUSH1 0x2 EXP SUB AND CALLER EQ PUSH2 0x6F9 JUMPI PUSH1 0x40 DUP1 MLOAD PUSH1 0xE5 PUSH1 0x2 EXP PUSH3 0x461BCD MUL DUP2 MSTORE PUSH1 0x20 PUSH1 0x4 DUP3 ADD MSTORE PUSH1 0x22 PUSH1 0x24 DUP3 ADD MSTORE PUSH32 0x4F6E6C79206368616972706572736F6E2063616E20636C6F736520766F74696E PUSH1 0x44 DUP3 ADD MSTORE PUSH32 0x672E000000000000000000000000000000000000000000000000000000000000 PUSH1 0x64 DUP3 ADD MSTORE SWAP1 MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x84 ADD SWAP1 REVERT JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0xFF NOT AND SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 PUSH1 0x2 PUSH2 0x711 PUSH2 0x39B JUMP JUMPDEST DUP2 SLOAD DUP2 LT PUSH2 0x71B JUMPI INVALID JUMPDEST SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x2 MUL ADD PUSH1 0x0 ADD SLOAD SWAP1 POP SWAP1 JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 PUSH17 0x8F6DFCC3DDEF89BEEC84ADFD2BEC0C06C6 RETURN 0xda 0xe2 0x23 PUSH4 0xC276340D 0x4d PUSH27 0x2C89D8002900000000000000000000000000000000000000000000 ",
         "runtimeBytecode": "6080604052600436106100985763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630121b93f811461009d578063013cf08b146100b75780632e4176cf146100e857806347535d7b14610119578063609ff1bd146101425780639e7b8d6114610169578063a3ec138d1461018a578063c631b292146101c4578063e2ba53f0146101d9575b600080fd5b3480156100a957600080fd5b506100b56004356101ee565b005b3480156100c357600080fd5b506100cf600435610352565b6040805192835260208301919091528051918290030190f35b3480156100f457600080fd5b506100fd61037e565b60408051600160a060020a039092168252519081900360200190f35b34801561012557600080fd5b5061012e610392565b604080519115158252519081900360200190f35b34801561014e57600080fd5b5061015761039b565b60408051918252519081900360200190f35b34801561017557600080fd5b506100b5600160a060020a0360043516610405565b34801561019657600080fd5b506101ab600160a060020a03600435166105f1565b6040805192835290151560208301528051918290030190f35b3480156101d057600080fd5b506100b561060d565b3480156101e557600080fd5b50610157610705565b6000805460ff16151560011461024e576040805160e560020a62461bcd02815260206004820152601e60248201527f5468697320766f74696e6720697320616c726561647920636c6f7365642e0000604482015290519081900360640190fd5b5033600090815260016020526040812080549091106102b7576040805160e560020a62461bcd02815260206004820152600f60248201527f4e6f20766f74696e672072696768740000000000000000000000000000000000604482015290519081900360640190fd5b600181015460ff1615610314576040805160e560020a62461bcd02815260206004820152600e60248201527f416c726561647920766f7465642e000000000000000000000000000000000000604482015290519081900360640190fd5b6001818101805460ff191690911790558054600280548490811061033457fe5b60009182526020909120600160029092020101805490910190555050565b600280548290811061036057fe5b60009182526020909120600290910201805460019091015490915082565b6000546101009004600160a060020a031681565b60005460ff1681565b600080805b60025481101561040057816002828154811015156103ba57fe5b90600052602060002090600202016001015411156103f85760028054829081106103e057fe5b90600052602060002090600202016001015491508092505b6001016103a0565b505090565b60005460ff161515600114610464576040805160e560020a62461bcd02815260206004820152601e60248201527f5468697320766f74696e6720697320616c726561647920636c6f7365642e0000604482015290519081900360640190fd5b6000546101009004600160a060020a031633146104f1576040805160e560020a62461bcd02815260206004820152602860248201527f4f6e6c79206368616972706572736f6e2063616e20676976652072696768742060448201527f746f20766f74652e000000000000000000000000000000000000000000000000606482015290519081900360840190fd5b600160a060020a0381166000908152600160208190526040909120015460ff1615610566576040805160e560020a62461bcd02815260206004820152601860248201527f54686520766f74657220616c726561647920766f7465642e0000000000000000604482015290519081900360640190fd5b600160a060020a038116600090815260016020526040902054156105d4576040805160e560020a62461bcd02815260206004820152600f60248201527f416c7265616479206772616e7465640000000000000000000000000000000000604482015290519081900360640190fd5b600160a060020a0316600090815260016020819052604090912055565b6001602081905260009182526040909120805491015460ff1682565b60005460ff16151560011461066c576040805160e560020a62461bcd02815260206004820152601e60248201527f5468697320766f74696e6720697320616c726561647920636c6f7365642e0000604482015290519081900360640190fd5b6000546101009004600160a060020a031633146106f9576040805160e560020a62461bcd02815260206004820152602260248201527f4f6e6c79206368616972706572736f6e2063616e20636c6f736520766f74696e60448201527f672e000000000000000000000000000000000000000000000000000000000000606482015290519081900360840190fd5b6000805460ff19169055565b6000600261071161039b565b8154811061071b57fe5b9060005260206000209060020201600001549050905600a165627a7a72305820708f6dfcc3ddef89beec84adfd2bec0c06c6f3dae22363c276340d4d7a2c89d80029",
         "srcmap": "26:1771:0:-;;;151:25;;;-1:-1:-1;;151:25:0;172:4;151:25;;;283:249;5:2:-1;;;;30:1;27;20:12;5:2;283:249:0;;;;;;;;;;;;;;;;;;399:6;331:24;;;345:10;331:24;;-1:-1:-1;;;;;;331:24:0;;;;;;;;;;366:11;-1:-1:-1;;;;;366:11:0;359:19;;331:11;359:19;;;;;;;:30;;;;283:249;;;;394:135;415:13;:20;411:1;:24;394:135;;;447:9;462:61;;;;;;;;;483:13;497:1;483:16;;;;;;;;;;;;;;;;;;;;462:61;;;;;;;;;27:10:-1;;39:1;23:18;;;45:23;;447:77:0;;;;;;;;;;;;;;;;;;;;;;;;;;437:3;394:135;;;283:249;;26:1771;;;;;;",
         "srcmapRuntime": "26:1771:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;878:313;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;878:313:0;;;;;;;252:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;252:27:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;179:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;179:26:0;;;;;;;;-1:-1:-1;;;;;179:26:0;;;;;;;;;;;;;;151:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;151:25:0;;;;;;;;;;;;;;;;;;;;;;1194:286;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1194:286:0;;;;;;;;;;;;;;;;;;;;535:340;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;535:340:0;-1:-1:-1;;;;;535:340:0;;;;;209:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;209:39:0;-1:-1:-1;;;;;209:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;1605:189;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1605:189:0;;;;1483:119;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1483:119:0;;;;878:313;979:20;926:6;;;;:14;;:6;:14;918:57;;;;;-1:-1:-1;;;;;918:57:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1009:10:0;1002:18;;;;:6;:18;;;;;1032:13;;1002:18;;-1:-1:-1;1024:45:0;;;;;-1:-1:-1;;;;;1024:45:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;1082:12;;;;;;1081:13;1073:40;;;;;-1:-1:-1;;;;;1073:40:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;1132:4;1117:12;;;:19;;-1:-1:-1;;1117:19:0;;;;;;1174:13;;1141:9;:19;;1151:8;;1141:19;;;;;;;;;;;;;;:29;:19;;;;;:29;:46;;;;;;;-1:-1:-1;;878:313:0:o;252:27::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;252:27:0;:::o;179:26::-;;;;;;-1:-1:-1;;;;;179:26:0;;:::o;151:25::-;;;;;;:::o;1194:286::-;1242:21;;;1298:179;1319:9;:16;1315:20;;1298:179;;;1376:16;1351:9;1361:1;1351:12;;;;;;;;;;;;;;;;;;;;:22;;;:41;1347:126;;;1419:9;:12;;1429:1;;1419:12;;;;;;;;;;;;;;;;:22;;;1400:41;;1466:1;1447:20;;1347:126;1337:3;;1298:179;;;1194:286;;;:::o;535:340::-;594:6;;;;:14;;:6;:14;586:57;;;;;-1:-1:-1;;;;;586:57:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;669:11;;;;;-1:-1:-1;;;;;669:11:0;655:10;:25;647:78;;;;;-1:-1:-1;;;;;647:78:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;738:13:0;;;;;;:6;:13;;;;;;;;:19;;;;737:20;729:57;;;;;-1:-1:-1;;;;;729:57:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;798:13:0;;;;;;:6;:13;;;;;:20;:25;790:53;;;;;-1:-1:-1;;;;;790:53:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;847:13:0;;;;;870:1;847:13;;;;;;;;:24;535:340::o;209:39::-;;;;;;;;;;;;;;;;;;;;;;:::o;1605:189::-;1647:6;;;;:14;;:6;:14;1639:57;;;;;-1:-1:-1;;;;;1639:57:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;1722:11;;;;;-1:-1:-1;;;;;1722:11:0;1708:10;:25;1700:72;;;;;-1:-1:-1;;;;;1700:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1785:5;1776:14;;-1:-1:-1;;1776:14:0;;;1605:189::o;1483:119::-;1526:19;1565:9;1575:17;:15;:17::i;:::-;1565:28;;;;;;;;;;;;;;;;;;:33;;;1551:47;;1483:119;:::o"
       }
     },
-    "sourceList": [
-      "voting.sol"
-    ],
+    "sourceList": ["voting.sol"],
     "sources": {
       "voting.sol": {
         "AST": {
           "attributes": {
             "absolutePath": "voting.sol",
             "exportedSymbols": {
-              "Voting": [
-                242
-              ]
+              "Voting": [242]
             }
           },
           "children": [
             {
               "attributes": {
-                "literals": [
-                  "solidity",
-                  "^",
-                  "0.4",
-                  ".24"
-                ]
+                "literals": ["solidity", "^", "0.4", ".24"]
               },
               "id": 1,
               "name": "PragmaDirective",
@@ -7005,18 +6991,12 @@
             },
             {
               "attributes": {
-                "baseContracts": [
-                  null
-                ],
-                "contractDependencies": [
-                  null
-                ],
+                "baseContracts": [null],
+                "contractDependencies": [null],
                 "contractKind": "contract",
                 "documentation": null,
                 "fullyImplemented": true,
-                "linearizedBaseContracts": [
-                  242
-                ],
+                "linearizedBaseContracts": [242],
                 "name": "Voting",
                 "scope": 243
               },
@@ -7311,9 +7291,7 @@
                     "documentation": null,
                     "implemented": true,
                     "isConstructor": true,
-                    "modifiers": [
-                      null
-                    ],
+                    "modifiers": [null],
                     "name": "",
                     "payable": false,
                     "scope": 242,
@@ -7368,13 +7346,9 @@
                     },
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 28,
                       "name": "ParameterList",
                       "src": "327:0:0"
@@ -7397,9 +7371,7 @@
                                 {
                                   "attributes": {
                                     "argumentTypes": null,
-                                    "overloadedDeclarations": [
-                                      null
-                                    ],
+                                    "overloadedDeclarations": [null],
                                     "referencedDeclaration": 16,
                                     "type": "address",
                                     "value": "chairperson"
@@ -7423,9 +7395,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 257,
                                         "type": "msg",
                                         "value": "msg"
@@ -7487,9 +7457,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 20,
                                             "type": "mapping(address => struct Voting.Voter storage ref)",
                                             "value": "voters"
@@ -7501,9 +7469,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 16,
                                             "type": "address",
                                             "value": "chairperson"
@@ -7553,9 +7519,7 @@
                           "children": [
                             {
                               "attributes": {
-                                "assignments": [
-                                  42
-                                ]
+                                "assignments": [42]
                               },
                               "children": [
                                 {
@@ -7624,9 +7588,7 @@
                                 {
                                   "attributes": {
                                     "argumentTypes": null,
-                                    "overloadedDeclarations": [
-                                      null
-                                    ],
+                                    "overloadedDeclarations": [null],
                                     "referencedDeclaration": 42,
                                     "type": "uint256",
                                     "value": "i"
@@ -7650,9 +7612,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 26,
                                         "type": "bytes32[] memory",
                                         "value": "proposalNames"
@@ -7688,9 +7648,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 42,
                                         "type": "uint256",
                                         "value": "i"
@@ -7721,9 +7679,7 @@
                                         "isPure": false,
                                         "isStructConstructorCall": false,
                                         "lValueRequested": false,
-                                        "names": [
-                                          null
-                                        ],
+                                        "names": [null],
                                         "type": "uint256",
                                         "type_conversion": false
                                       },
@@ -7772,10 +7728,7 @@
                                             "isPure": false,
                                             "isStructConstructorCall": true,
                                             "lValueRequested": false,
-                                            "names": [
-                                              "name",
-                                              "voteCount"
-                                            ],
+                                            "names": ["name", "voteCount"],
                                             "type": "struct Voting.Proposal memory",
                                             "type_conversion": false
                                           },
@@ -7895,9 +7848,7 @@
                     "documentation": null,
                     "implemented": true,
                     "isConstructor": false,
-                    "modifiers": [
-                      null
-                    ],
+                    "modifiers": [null],
                     "name": "giveRightToVote",
                     "payable": false,
                     "scope": 242,
@@ -7941,13 +7892,9 @@
                     },
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 70,
                       "name": "ParameterList",
                       "src": "582:0:0"
@@ -7964,9 +7911,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -7983,10 +7928,7 @@
                                         "typeString": "literal_string \"This voting is already closed.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -8013,9 +7955,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 14,
                                         "type": "bool",
                                         "value": "isOpen"
@@ -8083,9 +8023,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -8102,10 +8040,7 @@
                                         "typeString": "literal_string \"Only chairperson can give right to vote.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -8144,9 +8079,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 257,
                                             "type": "msg",
                                             "value": "msg"
@@ -8163,9 +8096,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 16,
                                         "type": "address",
                                         "value": "chairperson"
@@ -8216,9 +8147,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -8235,10 +8164,7 @@
                                         "typeString": "literal_string \"The voter already voted.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -8361,9 +8287,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -8380,10 +8304,7 @@
                                         "typeString": "literal_string \"Already granted\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -8554,9 +8475,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 20,
                                             "type": "mapping(address => struct Voting.Voter storage ref)",
                                             "value": "voters"
@@ -8568,9 +8487,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 68,
                                             "type": "address",
                                             "value": "voter"
@@ -8632,9 +8549,7 @@
                     "documentation": null,
                     "implemented": true,
                     "isConstructor": false,
-                    "modifiers": [
-                      null
-                    ],
+                    "modifiers": [null],
                     "name": "vote",
                     "payable": false,
                     "scope": 242,
@@ -8678,13 +8593,9 @@
                     },
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 117,
                       "name": "ParameterList",
                       "src": "914:0:0"
@@ -8701,9 +8612,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -8720,10 +8629,7 @@
                                         "typeString": "literal_string \"This voting is already closed.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -8750,9 +8656,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 14,
                                         "type": "bool",
                                         "value": "isOpen"
@@ -8812,9 +8716,7 @@
                         },
                         {
                           "attributes": {
-                            "assignments": [
-                              126
-                            ]
+                            "assignments": [126]
                           },
                           "children": [
                             {
@@ -8858,9 +8760,7 @@
                                 {
                                   "attributes": {
                                     "argumentTypes": null,
-                                    "overloadedDeclarations": [
-                                      null
-                                    ],
+                                    "overloadedDeclarations": [null],
                                     "referencedDeclaration": 20,
                                     "type": "mapping(address => struct Voting.Voter storage ref)",
                                     "value": "voters"
@@ -8884,9 +8784,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 257,
                                         "type": "msg",
                                         "value": "msg"
@@ -8920,9 +8818,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -8939,10 +8835,7 @@
                                         "typeString": "literal_string \"No voting right\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -8981,9 +8874,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 126,
                                             "type": "struct Voting.Voter storage pointer",
                                             "value": "sender"
@@ -9056,9 +8947,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -9075,10 +8964,7 @@
                                         "typeString": "literal_string \"Already voted.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -9114,9 +9000,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 126,
                                             "type": "struct Voting.Voter storage pointer",
                                             "value": "sender"
@@ -9190,9 +9074,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 126,
                                         "type": "struct Voting.Voter storage pointer",
                                         "value": "sender"
@@ -9271,9 +9153,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 23,
                                             "type": "struct Voting.Proposal storage ref[] storage ref",
                                             "value": "proposals"
@@ -9285,9 +9165,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 115,
                                             "type": "uint256",
                                             "value": "proposal"
@@ -9321,9 +9199,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 126,
                                         "type": "struct Voting.Voter storage pointer",
                                         "value": "sender"
@@ -9363,9 +9239,7 @@
                     "documentation": null,
                     "implemented": true,
                     "isConstructor": false,
-                    "modifiers": [
-                      null
-                    ],
+                    "modifiers": [null],
                     "name": "winningProposal",
                     "payable": false,
                     "scope": 242,
@@ -9376,13 +9250,9 @@
                   "children": [
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 163,
                       "name": "ParameterList",
                       "src": "1218:2:0"
@@ -9424,9 +9294,7 @@
                       "children": [
                         {
                           "attributes": {
-                            "assignments": [
-                              168
-                            ]
+                            "assignments": [168]
                           },
                           "children": [
                             {
@@ -9481,9 +9349,7 @@
                           "children": [
                             {
                               "attributes": {
-                                "assignments": [
-                                  172
-                                ]
+                                "assignments": [172]
                               },
                               "children": [
                                 {
@@ -9552,9 +9418,7 @@
                                 {
                                   "attributes": {
                                     "argumentTypes": null,
-                                    "overloadedDeclarations": [
-                                      null
-                                    ],
+                                    "overloadedDeclarations": [null],
                                     "referencedDeclaration": 172,
                                     "type": "uint256",
                                     "value": "p"
@@ -9578,9 +9442,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 23,
                                         "type": "struct Voting.Proposal storage ref[] storage ref",
                                         "value": "proposals"
@@ -9616,9 +9478,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 172,
                                         "type": "uint256",
                                         "value": "p"
@@ -9722,9 +9582,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 168,
                                             "type": "uint256",
                                             "value": "winningVoteCount"
@@ -9924,9 +9782,7 @@
                     "documentation": null,
                     "implemented": true,
                     "isConstructor": false,
-                    "modifiers": [
-                      null
-                    ],
+                    "modifiers": [null],
                     "name": "winnerName",
                     "payable": false,
                     "scope": 242,
@@ -9937,13 +9793,9 @@
                   "children": [
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 205,
                       "name": "ParameterList",
                       "src": "1502:2:0"
@@ -9999,9 +9851,7 @@
                                 {
                                   "attributes": {
                                     "argumentTypes": null,
-                                    "overloadedDeclarations": [
-                                      null
-                                    ],
+                                    "overloadedDeclarations": [null],
                                     "referencedDeclaration": 207,
                                     "type": "bytes32",
                                     "value": "winnerName_"
@@ -10035,9 +9885,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 23,
                                             "type": "struct Voting.Proposal storage ref[] storage ref",
                                             "value": "proposals"
@@ -10049,26 +9897,20 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "arguments": [
-                                              null
-                                            ],
+                                            "arguments": [null],
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
                                             "isStructConstructorCall": false,
                                             "lValueRequested": false,
-                                            "names": [
-                                              null
-                                            ],
+                                            "names": [null],
                                             "type": "uint256",
                                             "type_conversion": false
                                           },
                                           "children": [
                                             {
                                               "attributes": {
-                                                "argumentTypes": [
-                                                  null
-                                                ],
+                                                "argumentTypes": [null],
                                                 "overloadedDeclarations": [
                                                   null
                                                 ],
@@ -10121,9 +9963,7 @@
                     "documentation": null,
                     "implemented": true,
                     "isConstructor": false,
-                    "modifiers": [
-                      null
-                    ],
+                    "modifiers": [null],
                     "name": "closeVoting",
                     "payable": false,
                     "scope": 242,
@@ -10134,26 +9974,18 @@
                   "children": [
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 219,
                       "name": "ParameterList",
                       "src": "1625:2:0"
                     },
                     {
                       "attributes": {
-                        "parameters": [
-                          null
-                        ]
+                        "parameters": [null]
                       },
-                      "children": [
-                        
-                      ],
+                      "children": [],
                       "id": 220,
                       "name": "ParameterList",
                       "src": "1635:0:0"
@@ -10170,9 +10002,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -10189,10 +10019,7 @@
                                         "typeString": "literal_string \"This voting is already closed.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -10219,9 +10046,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 14,
                                         "type": "bool",
                                         "value": "isOpen"
@@ -10289,9 +10114,7 @@
                                 "isPure": false,
                                 "isStructConstructorCall": false,
                                 "lValueRequested": false,
-                                "names": [
-                                  null
-                                ],
+                                "names": [null],
                                 "type": "tuple()",
                                 "type_conversion": false
                               },
@@ -10308,10 +10131,7 @@
                                         "typeString": "literal_string \"Only chairperson can close voting.\""
                                       }
                                     ],
-                                    "overloadedDeclarations": [
-                                      260,
-                                      261
-                                    ],
+                                    "overloadedDeclarations": [260, 261],
                                     "referencedDeclaration": 261,
                                     "type": "function (bool,string memory) pure",
                                     "value": "require"
@@ -10350,9 +10170,7 @@
                                         {
                                           "attributes": {
                                             "argumentTypes": null,
-                                            "overloadedDeclarations": [
-                                              null
-                                            ],
+                                            "overloadedDeclarations": [null],
                                             "referencedDeclaration": 257,
                                             "type": "msg",
                                             "value": "msg"
@@ -10369,9 +10187,7 @@
                                     {
                                       "attributes": {
                                         "argumentTypes": null,
-                                        "overloadedDeclarations": [
-                                          null
-                                        ],
+                                        "overloadedDeclarations": [null],
                                         "referencedDeclaration": 16,
                                         "type": "address",
                                         "value": "chairperson"
@@ -10428,9 +10244,7 @@
                                 {
                                   "attributes": {
                                     "argumentTypes": null,
-                                    "overloadedDeclarations": [
-                                      null
-                                    ],
+                                    "overloadedDeclarations": [null],
                                     "referencedDeclaration": 14,
                                     "type": "bool",
                                     "value": "isOpen"
