@@ -1,4 +1,4 @@
-const compilerOutput = require("./old-compiler-outpur-SimpleToken.json");
+const compilerOutput = require("./new-compiler-output-SimpleToken.json");
 
 const getDependency = function(compiledContract) {
   let dependency = {};
@@ -10,23 +10,10 @@ const getDependency = function(compiledContract) {
   //     ]
   //   );
 
-  for (let sourceInfo of compiledContract["sources"][
-    compiledContract["sourceList"][0]
-  ]["AST"]["children"]) {
-    // console.log(sourceInfo);
-    let contractName = sourceInfo["attributes"]["name"];
-    if (!contractName) continue;
-    let node = sourceInfo["children"];
-    let found = [];
-    parseTreeFind(node, "type", found);
+  const exportedSymbols =
+    compiledContract["sources"]["test.sol"]["ast"]["exportedSymbols"];
 
-    console.log("Utils parseTreeFind output->", found);
-    let dependentLibraries = searchLibraries(found);
-    let ind = dependentLibraries.indexOf(contractName);
-    if (ind >= 0) dependentLibraries.splice(ind, 1);
-    dependency[contractName] = dependentLibraries;
-  }
-  console.log("dependency", dependency);
+  console.log(exportedSymbols);
   return dependency;
 };
 
