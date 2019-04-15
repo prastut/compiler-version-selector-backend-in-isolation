@@ -10,8 +10,20 @@ const getDependency = function(compiledContract) {
   //     ]
   //   );
 
-  const exportedSymbols =
-    compiledContract["sources"]["test.sol"]["ast"]["exportedSymbols"];
+  const astContract = compiledContract["sources"]["test.sol"]["ast"];
+
+  const exportedSymbols = astContract["exportedSymbols"];
+
+  for (contract in exportedSymbols) {
+    let id = exportedSymbols[contract][0];
+
+    for (node of astContract["nodes"]) {
+      if (id == node["id"]) {
+        console.log(node["nodeType"]);
+        console.log(node["name"]);
+      }
+    }
+  }
 
   console.log(exportedSymbols);
   return dependency;
